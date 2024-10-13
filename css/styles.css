@@ -16,7 +16,7 @@
 
 }
 
-.opacidad {
+.main__principal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
 
 }
 
-.opacidad h1 {
+.main__principal h1 {
     font-weight: 900;
     font-family: "Dancing Script", cursive;
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em black;
@@ -62,5 +62,5 @@
 .card {
     border-radius: 30px !important;
     bottom: 200px;
-    background: url(../img/backgrounds/album_card.jpg) center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0,0,0,0.603)),url(../img/backgrounds/album_card.jpg) center/cover;
 }
