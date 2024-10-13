@@ -61,6 +61,10 @@
 
 .card {
     border-radius: 30px !important;
-    bottom: 200px;
     background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0,0,0,0.603)),url(../img/backgrounds/album_card.jpg) center/cover;
+    height: 30%;
+}
+
+.principal__text {
+    padding: 400px !important;
 }
