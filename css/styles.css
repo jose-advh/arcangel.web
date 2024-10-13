@@ -63,7 +63,7 @@
 
 .card {
     position: absolute !important;
-    top: 65%;
+    top: 70%;
     border-radius: 30px !important;
     background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0,0,0,0.664)),url(../img/backgrounds/arcangel_cad_m.jpg) center/contain;
     height: 35%;
