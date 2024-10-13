@@ -21,7 +21,11 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.411);
+    background: rgb(255,247,247);
+    background: -moz-linear-gradient(0deg, rgba(255,247,247,1) 0%, rgba(0,0,0,0.5746673669467788) 7%);
+    background: -webkit-linear-gradient(0deg, rgba(255,247,247,1) 0%, rgba(0,0,0,0.5746673669467788) 7%);
+    background: linear-gradient(0deg, rgba(255,247,247,1) 0%, rgba(0,0,0,0.5746673669467788) 7%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff7f7",endColorstr="#000000",GradientType=1);
 
 }
 
