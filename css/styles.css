@@ -7,6 +7,7 @@
 
 .header {
     width: 100%;
+    z-index: 999;
     background-color: white !important;
 }
 
@@ -59,9 +60,7 @@
     justify-content: space-between;
 }
 
-
-
-.card {
+.card-bg {
     position: absolute !important;
     top: 70%;
     border-radius: 30px !important;
@@ -71,4 +70,16 @@
 
 .principal__text {
     padding: 400px !important;
+}
+
+/* PAGINA ALBUMS */
+
+.main__albums {
+    width: 80%;
+    gap: 10px;
+    padding-top: 6rem;
+}
+
+.item__card {
+    flex-grow: 1;
 }
