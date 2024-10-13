@@ -30,6 +30,10 @@
 
 }
 
+.main__text {
+    background-color: rgba(255, 92, 92, 0.616) !important;
+}
+
 .main__principal h1 {
     font-weight: 900;
     font-family: "Dancing Script", cursive;
