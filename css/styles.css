@@ -96,6 +96,21 @@
     justify-content: center;
 }
 
+.textos__aside {
+}
+
+.textos__aside a:hover {
+    transition: .5s;
+
+    transform: scale(1.1);
+}
+
+.texto__img {
+    width: 1rem;
+    margin: auto;
+    display: flex;
+}
+
 
 /* PAGINA ALBUMS */
 
@@ -107,4 +122,11 @@
 
 .item__card {
     flex-grow: 1;
+}
+
+.underline_active {
+    text-decoration: underline !important;
+    text-decoration-color: red !important;
+    text-decoration-thickness: 3px !important;
+    text-underline-offset: 4px;
 }
