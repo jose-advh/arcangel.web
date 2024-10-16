@@ -82,8 +82,10 @@
       #FF512F,#F09819
     );
     opacity: .9;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
+    box-shadow: 0 4px 10px rgba(255, 81, 47, 0.6), 0 4px 10px rgba(240, 152, 25, 0.6);
+
 }
 
 .main__aside {
